@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vision-ai-super/sw.js', { scope: '/vision-ai-super/' })})}
